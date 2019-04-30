@@ -6,12 +6,28 @@ p{
     background:black;
     color:yellow;
 } */
- .title{
+ /* .title{
     color:orange
-} 
+}  */
  /* #title{
     color:red;
 }  */
-[disabled]{
+/* [disabled]{
     color:rgb(123,1,56)
+} */
+body
+{
+    background: yellowgreen;
+}
+
+img{
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%
+}
+.image{
+    border-bottom-color:black;
+    color:brown;
+}
+#name{
+    color:palevioletred;
 }
