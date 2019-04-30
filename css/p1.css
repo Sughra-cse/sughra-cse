@@ -1,0 +1,17 @@
+/* h1{
+color:olivedrab;
+}
+
+p{
+    background:black;
+    color:yellow;
+} */
+ .title{
+    color:orange
+} 
+ /* #title{
+    color:red;
+}  */
+[disabled]{
+    color:rgb(123,1,56)
+}
