@@ -31,3 +31,38 @@ img{
 #name{
     color:palevioletred;
 }
+/* *{
+    padding: 0%;
+    margin: 0.5%;
+}
+ /* justify-content: center; */
+body{
+    height: 100vmax;
+    background-image: url('../dillon-shook.jpg');
+    background-size: cover;
+}
+.profile{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(123,123,345,5);  
+    padding : 10px;
+     border-radius: 10%; 
+     align-items: center;
+     margin-left: 40%;
+  }
+
+img {
+    height: 100px;
+    border-radius: 70%;
+}
+.profiletext{
+    margin-left: 35%;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+p{
+    font-size:1.1em;
+
+}
+ */
