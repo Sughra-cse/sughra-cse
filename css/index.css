@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    background-image: url('/Images/Bg_portfolio.jpg');
+    background-size:cover;
+    font-size: 17px;
+    width:90%;
+    margin: 0 auto;
+}
+.container1 {
+    line-height: 90px;
+    padding: 10px;
+}
+.container1 nav{
+display: inline;
+padding: 20px;
+}
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-left: 30px solid rgb(194, 201, 212);
+	border-bottom: 20px solid transparent;
+}
+.container1 nav label.logo{
+    line-height: 70px;
+    padding: 8px;
+    font-style: italic;
+    color: white;
+    font-size: 1.3rem;
+   text-decoration-line: line-through;
+   text-decoration-color: indianred;
+   text-decoration-style: wavy;
+   outline-style: double;
+   margin-left: 20px;
+   /* transform: rotate(90deg); */
+}
+#check{
+    display: none;
+}
+ .container1 nav ul{
+    float: right;
+    margin: auto 10px;
+   }
+.container1 nav ul li{
+    display: block;
+    line-height: 40px;
+    margin: 0 8px;
+    cursor: pointer;
+    background-image:url("../dillon-shook.jpg");
+}
+.container1 nav ul li a{
+    color:black;
+    text-transform: uppercase;
+    /* padding: 8px 16px; */
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 3px;
+
+}
+.container1 nav ul li  a:hover{
+    transition: .5s;
+   cursor: pointer;
+   color: tomato;
+   background-color: teal;
+}
+.checkbtn{
+   color: white;
+    float: right;
+    line-height: 70px;
+    /* margin-right: 30px; */
+    cursor: pointer;
+}
+@media(max-width:950px){
+    /* label.logo{
+        padding-left: 20px;
+    } */
+     ul{
+        position: fixed;
+        width:60%;
+        height: 32vh;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transform: all .5s;
+        margin: 0 auto;
+    }
+    #check:checked ~ul{
+        left:0;
+    } 
+}
+footer{
+   padding: 10px;
+   vertical-align: bottom;
+} 
+footer a{
+    padding: 8px;
+    cursor: pointer;
+    color:purple;
+    background-color: white;
+    border-radius: 50%;
+}
+footer a:hover{
+    background-color:palegreen;
+    color:tomato;
+}
+.container2 {
+padding: 10px;
+/* margin: 10px; */
+}
+.container2 img{
+    margin: 10px;
+    width:200px;
+    height:150px;
+    border-radius: 20%;
+    border:3px ridge rgb(20, 220, 87);
+}
+.container2 h2{
+    font-size: 1.3rem;
+    padding: 10px;
+    color: peachpuff;
+    text-orientation: sideways-right;
+    text-rendering: optimizeSpeed;
+}
+.container2 h5{
+    font-size: 1.2rem;
+    color: thistle;
+    padding: 10px;
+}
+@media (min-width:700px){
+.container1 nav label.logo{
+    font-size: 1.9rem;
+}
+.container1 nav ul li a{
+    font-size: 1.4rem;
+}
+.container1 nav ul{
+    height:20vh;
+    width:40%;
+    /* left:-100%; */
+    right: -100%;
+    margin-left: 0px;
+}
+    .container2 h2{
+        font-size: 1.7rem;
+        padding: 10px;
+        word-spacing: 1.pc;
+        margin-top: 10px;
+    }
+    .container2 h5{
+        font-size: 1.8rem;
+        padding: 10px;
+        word-spacing: 1.pc;
+        margin-bottom: 15px;
+    }
+    footer a{
+        padding:25px 20px 20px 25px;
+    }
+    i{
+        font-size: 35px;
+    }
+}
+@media(min-width:950px){
+    .container1 nav label.logo{
+        margin-right: 0px;
+    }
+.container1 nav ul li {
+    display: inline;
+    margin: 0px;
+    background-image: none;
+}
+.container1 nav ul li a{
+    margin:0px 0px ;
+    float:left;
+    padding: 10px;
+    border-radius: 3px;
+    color:tan;
+}
+.checkbtn{
+    display: none;
+}
+.container{
+    width:95%;
+    margin: 0 auto;
+}
+.container1 nav{
+width:95%;
+height: 80px;
+}
+.container1 nav ul{
+margin-right: 10px;
+width: fit-content;
+height: fit-content;
+}
+.container1 nav ul li{
+margin: 0 5px;
+float: left;
+}
+.container2 img{
+    width:310px;
+    height: 250px;
+    margin-left: 300px;
+    border-radius: 50%;
+}
+.container2 h2{
+    font-size: 1.8rem;
+    padding: 8px;
+}
+.container2 h5{
+    font-size: 1.7rem;
+    padding: 5px;
+}
+}

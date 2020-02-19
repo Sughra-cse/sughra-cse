@@ -1,0 +1,30 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+.box{
+    margin: 0px auto;
+    width:90%;
+    font-size: 16px;
+    background-image: url('/Images/portfolio.jpg');
+}
+.box1 h2{
+    padding: 10px;
+    color:white;
+}
+.box1 h3{
+    padding: 10px;
+    color:gainsboro;
+}
+.box2 table  {
+    align-items: center;
+    background-color: lightgreen;
+    color: purple;
+    padding: 10px;
+    text-align: center;
+    
+}
+.box3{
+    padding: 20px;
+}

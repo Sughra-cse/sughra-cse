@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.parent{
+    width: 86%;
+    margin: 0 auto;
+    background-image: url('/Images/portfolio.jpg');
+}
+.parent h2{
+    color: white;
+    padding: 20px;
+}
+.parent a{
+    padding: 12px;
+    cursor: pointer;
+    color:purple;
+    background-color: white;
+    border-radius: 50%; 
+}
+.parent a:hover{
+    background-color:palegreen;
+    color:tomato;
+}

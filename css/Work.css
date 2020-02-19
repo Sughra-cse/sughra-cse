@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.parent{
+    width: 89%;
+    margin: 0 auto;
+    font-size: 16px;
+    background-image: url('/Images/portfolio.jpg');
+}
+.parent h1{
+    color:turquoise;
+    text-align: center;
+    font-style: italic;
+}
+.parent h2{
+    color: lightyellow;
+    padding: 10px;
+    text-decoration-line: underline;
+    
+}
+.parent h3{
+    padding: 10px;
+    color:lightpink
+}
+.parent p{
+    padding: 10px;
+    color:mintcream;
+    font-size: 1.1rem;
+}
+.parent a{
+    padding: 10px;
+    margin: 10px;
+}
+ .parent a img{
+    cursor: pointer;
+    image-rendering: center;
+    border:   3px solid palegreen;  
+    width: 300px;
+height: 180px;
+}
+.parent a img:hover{
+    opacity: 60%;
+}
+@media (min-width:700px){
+    .parent a img{
+        width:450px;
+        height:240px;
+    }
+    .parent h3{
+        font-size: 1.2rem;
+    }
+}
+@media (min-width:990px){
+    .parent a img{
+        width:550px;
+        height:290px;
+    }
+    .parent h3{
+        font-size: 1.3rem;
+    }
+    .parent p{
+        font-size: 1.2rem;
+    }
+}
