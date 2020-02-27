@@ -5,7 +5,23 @@
     list-style: none;
     text-decoration: none;
 }
-.container{
+footer{
+    padding: 10px;
+    vertical-align: bottom;
+    background-image: url('/Images/Bg_portfolio.jpg');
+ } 
+footer a{
+    padding: 8px;
+    cursor: pointer;
+    color:purple;
+    background-color: white;
+    border-radius: 50%;
+}
+footer a:hover{
+    background-color:palegreen;
+    color:tomato;
+}
+body{
     background-image: url('/Images/Bg_portfolio.jpg');
     background-size:cover;
     font-size: 17px;
@@ -93,21 +109,6 @@ padding: 20px;
     #check:checked ~ul{
         left:0;
     } 
-}
-footer{
-   padding: 10px;
-   vertical-align: bottom;
-} 
-footer a{
-    padding: 8px;
-    cursor: pointer;
-    color:purple;
-    background-color: white;
-    border-radius: 50%;
-}
-footer a:hover{
-    background-color:palegreen;
-    color:tomato;
 }
 .container2 {
 padding: 10px;
@@ -215,4 +216,109 @@ float: left;
     font-size: 1.7rem;
     padding: 5px;
 }
+}
+/* aout */
+.box1 h1{
+    color:turquoise;
+    text-align: center;
+    font-style: italic;
+}
+.box1 h2{
+    padding: 10px;
+    color:white;
+}
+.box1 h3{
+    padding: 10px;
+    color:gainsboro;
+}
+.box2{
+    padding: 15px;
+}
+.box2 table  {
+    align-items: center;
+    background-color: lightgreen;
+    color: purple;
+    padding: 10px;
+    text-align: center;
+    
+}
+.box3{
+    padding: 20px;
+}
+/* work */
+.parent h1{
+    color:turquoise;
+    text-align: center;
+    font-style: italic;
+}
+.parent h2{
+    color: lightyellow;
+    padding: 10px;
+    text-decoration-line: underline;
+    
+}
+.parent h3{
+    padding: 10px;
+    color:lightpink
+}
+.parent p{
+    padding: 10px;
+    color:mintcream;
+    font-size: 1.1rem;
+}
+.parent a{
+    padding: 10px;
+    margin: 10px;
+}
+ .parent a img{
+    cursor: pointer;
+    image-rendering: center;
+    border:   3px solid palegreen;  
+    width: 300px;
+height: 180px;
+}
+.parent a img:hover{
+    opacity: 60%;
+}
+@media (min-width:700px){
+    .parent a img{
+        width:450px;
+        height:240px;
+    }
+    .parent h3{
+        font-size: 1.2rem;
+    }
+}
+@media (min-width:990px){
+    .parent a img{
+        width:550px;
+        height:290px;
+    }
+    .parent h3{
+        font-size: 1.3rem;
+    }
+    .parent p{
+        font-size: 1.2rem;
+    }
+/* Contact */
+.Cparent h1{
+    color:turquoise;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+}
+.Cparent h2{
+    color: white;
+    padding: 20px;
+}
+.Cparent a{
+    padding: 12px;
+    cursor: pointer;
+    color:purple;
+    background-color: white;
+    border-radius: 50%; 
+}
+.Cparent a:hover{
+    background-color:palegreen;
+    color:tomato;
 }
