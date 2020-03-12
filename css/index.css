@@ -7,6 +7,7 @@
 }
 footer{
     padding: 10px;
+    /* margin-top: 19px; */
     vertical-align: bottom;
     background-image: url('/Images/Bg_portfolio.jpg');
  } 
@@ -22,15 +23,22 @@ footer a:hover{
     color:tomato;
 }
 body{
-    background-image: url('/Images/Bg_portfolio.jpg');
-    background-size:cover;
+    /* background-image: url('/Images/downloadpoi.jpg'); */
+    /* background-size:cover; */
     font-size: 17px;
-    width:90%;
+    /* width:98%; */
     margin: 0 auto;
 }
+.container{
+        background-image: url('/Images/images\ \(8\).jpg');
+        background-size:cover;
+        width:100%;
+}
 .container1 {
-    line-height: 90px;
+    background-image: url('/Images/images\ \(5).jpg');
+    line-height: 80px;
     padding: 10px;
+    margin-top: 10px;
 }
 .container1 nav{
 display: inline;
@@ -49,7 +57,8 @@ padding: 20px;
     font-style: italic;
     color: white;
     font-size: 1.3rem;
-   text-decoration-line: line-through;
+    font-family: cursive;
+   /* text-decoration-line: line-through; */
    text-decoration-color: indianred;
    text-decoration-style: wavy;
    outline-style: double;
@@ -93,9 +102,6 @@ padding: 20px;
     cursor: pointer;
 }
 @media(max-width:950px){
-    /* label.logo{
-        padding-left: 20px;
-    } */
      ul{
         position: fixed;
         width:60%;
@@ -112,7 +118,6 @@ padding: 20px;
 }
 .container2 {
 padding: 10px;
-/* margin: 10px; */
 }
 .container2 img{
     margin: 10px;
@@ -124,7 +129,7 @@ padding: 10px;
 .container2 h2{
     font-size: 1.3rem;
     padding: 10px;
-    color: peachpuff;
+    color:palegreen;
     text-orientation: sideways-right;
     text-rendering: optimizeSpeed;
 }
@@ -143,19 +148,16 @@ padding: 10px;
 .container1 nav ul{
     height:20vh;
     width:40%;
-    /* left:-100%; */
     right: -100%;
     margin-left: 0px;
 }
     .container2 h2{
         font-size: 1.7rem;
-        padding: 10px;
         word-spacing: 1.pc;
         margin-top: 10px;
     }
     .container2 h5{
         font-size: 1.8rem;
-        padding: 10px;
         word-spacing: 1.pc;
         margin-bottom: 15px;
     }
@@ -186,7 +188,6 @@ padding: 10px;
     display: none;
 }
 .container{
-    width:95%;
     margin: 0 auto;
 }
 .container1 nav{
@@ -210,18 +211,28 @@ float: left;
 }
 .container2 h2{
     font-size: 1.8rem;
-    padding: 8px;
+    /* padding: 8px; */
 }
 .container2 h5{
     font-size: 1.7rem;
-    padding: 5px;
+    /* padding: 5px; */
 }
 }
 /* aout */
+.box{
+    background-image: url('/Images/images\ \(4\).jpg');
+    background-size: cover;
+}
+.box1 {
+    float: left;
+    width:40%;
+    height: 60vh;
+}
 .box1 h1{
     color:turquoise;
     text-align: center;
     font-style: italic;
+    text-transform: capitalize;
 }
 .box1 h2{
     padding: 10px;
@@ -233,19 +244,57 @@ float: left;
 }
 .box2{
     padding: 15px;
+    float: right;
+    width:60%;
+    margin-top: 40px;
 }
-.box2 table  {
+.box2 h3{
+    border: 2px solid yellow; 
+    padding: 2px 19px 2px 3px;  
+    width:70%;
+    color:white;
+    text-transform: uppercase;
+    background-color: hotpink;
+    background-size: initial;
+}
+.box2 h3 span{
+    background-color:white;
+}
+/* .box2 table  {
     align-items: center;
     background-color: lightgreen;
     color: purple;
     padding: 10px;
     text-align: center;
     
-}
+} */
 .box3{
     padding: 20px;
+    /* float:right; */
+}
+.box3 button {
+    padding: 20px;
+    border-radius: 20%;
+    border:2px solid firebrick; 
+    cursor: pointer;
+    color:white;
+    background-color: teal;
+}
+.box3 button:hover{
+    color:green;
+    background-attachment:scroll ;
+    background-color: indigo;
+}
+@media (min-width:800px){
+    .box2 h3{
+        width:40%;
+    }
 }
 /* work */
+.parent{
+    background-image: url('/Images/downloadpoi.jpg');
+    background-size: cover;
+}
 .parent h1{
     color:turquoise;
     text-align: center;
@@ -300,23 +349,32 @@ height: 180px;
     .parent p{
         font-size: 1.2rem;
     }
+}
 /* Contact */
+.Cparent{
+    background-image: url('/Images/images.jpg');
+    background-size: cover;
+    padding-bottom:20px;
+}
 .Cparent h1{
     color:turquoise;
     text-align: center;
     font-style: italic;
     padding: 10px;
+    text-transform: capitalize;
 }
 .Cparent h2{
     color: white;
     padding: 20px;
+    /* float: left; */
 }
 .Cparent a{
     padding: 12px;
     cursor: pointer;
     color:purple;
     background-color: white;
-    border-radius: 50%; 
+    border-radius:30%; 
+    /* float: left; */
 }
 .Cparent a:hover{
     background-color:palegreen;
