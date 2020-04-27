@@ -7,7 +7,6 @@
 }
 footer{
     padding: 10px;
-    /* margin-top: 19px; */
     vertical-align: bottom;
     background-image: url('/Images/Bg_portfolio.jpg');
  } 
@@ -23,19 +22,16 @@ footer a:hover{
     color:tomato;
 }
 body{
-    /* background-image: url('/Images/downloadpoi.jpg'); */
-    /* background-size:cover; */
     font-size: 17px;
-    /* width:98%; */
     margin: 0 auto;
 }
 .container{
-        background-image: url('/Images/images\ \(8\).jpg');
+        background-image: url('/Images/images\ \(11\).jpg');
         background-size:cover;
         width:100%;
 }
 .container1 {
-    background-image: url('/Images/images\ \(5).jpg');
+    background-image: url('/Images/images\ \(5\).jpg');
     line-height: 80px;
     padding: 10px;
     margin-top: 10px;
@@ -58,12 +54,10 @@ padding: 20px;
     color: white;
     font-size: 1.3rem;
     font-family: cursive;
-   /* text-decoration-line: line-through; */
    text-decoration-color: indianred;
    text-decoration-style: wavy;
    outline-style: double;
    margin-left: 20px;
-   /* transform: rotate(90deg); */
 }
 #check{
     display: none;
@@ -71,6 +65,7 @@ padding: 20px;
  .container1 nav ul{
     float: right;
     margin: auto 10px;
+    
    }
 .container1 nav ul li{
     display: block;
@@ -80,7 +75,7 @@ padding: 20px;
     background-image:url("../dillon-shook.jpg");
 }
 .container1 nav ul li a{
-    color:black;
+    color:rgb(204, 121, 121);
     text-transform: uppercase;
     /* padding: 8px 16px; */
     font-weight: bold;
@@ -103,14 +98,17 @@ padding: 20px;
 }
 @media(max-width:950px){
      ul{
-        position: fixed;
+        position: relative;
         width:60%;
-        height: 32vh;
-        top:80px;
-        left:-100%;
+        height: 32vh; 
+         /* top:10px;  */
+         left:-100%;
+        z-index: 1;
         text-align: center;
         transform: all .5s;
         margin: 0 auto;
+        overflow-x: hidden;
+        /* position: fixed; */
     }
     #check:checked ~ul{
         left:0;
@@ -120,6 +118,7 @@ padding: 20px;
 padding: 10px;
 }
 .container2 img{
+    padding-top: 0px;
     margin: 10px;
     width:200px;
     height:150px;
@@ -129,7 +128,7 @@ padding: 10px;
 .container2 h2{
     font-size: 1.3rem;
     padding: 10px;
-    color:palegreen;
+    color:lightgoldenrodyellow;
     text-orientation: sideways-right;
     text-rendering: optimizeSpeed;
 }
@@ -182,7 +181,7 @@ padding: 10px;
     float:left;
     padding: 10px;
     border-radius: 3px;
-    color:tan;
+    color:white;
 }
 .checkbtn{
     display: none;
@@ -215,18 +214,12 @@ float: left;
 }
 .container2 h5{
     font-size: 1.7rem;
-    /* padding: 5px; */
 }
 }
 /* aout */
 .box{
-    background-image: url('/Images/images\ \(4\).jpg');
+    background-image: url('/Images/images\ \(7\).jpg');
     background-size: cover;
-}
-.box1 {
-    float: left;
-    width:40%;
-    height: 60vh;
 }
 .box1 h1{
     color:turquoise;
@@ -242,35 +235,8 @@ float: left;
     padding: 10px;
     color:gainsboro;
 }
-.box2{
-    padding: 15px;
-    float: right;
-    width:60%;
-    margin-top: 40px;
-}
-.box2 h3{
-    border: 2px solid yellow; 
-    padding: 2px 19px 2px 3px;  
-    width:70%;
-    color:white;
-    text-transform: uppercase;
-    background-color: hotpink;
-    background-size: initial;
-}
-.box2 h3 span{
-    background-color:white;
-}
-/* .box2 table  {
-    align-items: center;
-    background-color: lightgreen;
-    color: purple;
-    padding: 10px;
-    text-align: center;
-    
-} */
 .box3{
     padding: 20px;
-    /* float:right; */
 }
 .box3 button {
     padding: 20px;
@@ -285,10 +251,45 @@ float: left;
     background-attachment:scroll ;
     background-color: indigo;
 }
-@media (min-width:800px){
-    .box2 h3{
-        width:40%;
-    }
+/* skills */
+.Scotaier{
+    background-image: url('/Images/images\ \(9\).jpg');
+    background-size: cover;
+}
+.Scotaier1{
+    padding-bottom: 15px;
+}
+.Scotaier1 h3{
+    text-transform: uppercase;
+    padding: 2px 19px 2px 3px; 
+    margin-left: 10px;
+}
+.Scotaier1 h1{
+    color:maroon;
+    text-align: center;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.Scotaier1 span{
+    margin-left: 15px;
+    /* border:1px solid maroon ;    */
+}
+.fa-square{
+color:grey;
+font-size: large;
+/* margin-left: 15px; */
+} 
+.checked{
+    color:orange;
+}
+.box2 h3{
+    border: 2px solid yellow; 
+    padding: 2px 19px 2px 3px;  
+    /* width:70%; */
+    color:white;
+    text-transform: uppercase;
+    background-color: hotpink;
+    background-size: initial;
 }
 /* work */
 .parent{
@@ -354,7 +355,7 @@ height: 180px;
 .Cparent{
     background-image: url('/Images/images.jpg');
     background-size: cover;
-    padding-bottom:20px;
+    padding-bottom:25px;
 }
 .Cparent h1{
     color:turquoise;
@@ -369,7 +370,8 @@ height: 180px;
     /* float: left; */
 }
 .Cparent a{
-    padding: 12px;
+    padding: 15px;
+    padding-top: 20px;
     cursor: pointer;
     color:purple;
     background-color: white;
