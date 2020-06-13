@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    background-image: none;
 }
 footer{
     padding: 10px;
@@ -26,7 +27,7 @@ body{
     margin: 0 auto;
 }
 .container{
-        background-image: url('/Images/images\ \(11\).jpg');
+    background-color:rgb(204, 121, 121);
         background-size:cover;
         width:100%;
 }
@@ -218,7 +219,7 @@ float: left;
 }
 /* aout */
 .box{
-    background-image: url('/Images/images\ \(7\).jpg');
+    background-color:rgb(221, 136, 136);
     background-size: cover;
 }
 .box1 h1{
@@ -253,7 +254,7 @@ float: left;
 }
 /* skills */
 .Scotaier{
-    background-image: url('/Images/images\ \(9\).jpg');
+    background-color:rgb(206, 134, 134);
     background-size: cover;
 }
 .Scotaier1{
@@ -293,7 +294,7 @@ font-size: large;
 }
 /* work */
 .parent{
-    background-image: url('/Images/downloadpoi.jpg');
+    background-color:rgb(209, 145, 145);
     background-size: cover;
 }
 .parent h1{
@@ -353,7 +354,7 @@ height: 180px;
 }
 /* Contact */
 .Cparent{
-    background-image: url('/Images/images.jpg');
+    background-color:rgba(233, 167, 167, 0.931);
     background-size: cover;
     padding-bottom:25px;
 }
